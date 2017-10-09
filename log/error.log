@@ -1,0 +1,22 @@
+2017-09-12 14:17:10,190 [Thread-4:14168] [blog.views:11] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 14:18:33,359 [Thread-8:7864] [blog.views:11] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 14:33:28,530 [Thread-2:11140] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 14:33:51,667 [Thread-2:8432] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 14:34:18,548 [Thread-2:792] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 14:38:59,174 [Thread-2:8648] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 15:56:11,344 [Thread-7:16728] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 17:00:17,471 [Thread-12:17016] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 17:00:19,385 [Thread-13:4580] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 17:24:17,953 [Thread-2:13648] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 17:24:49,677 [Thread-2:17932] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 17:28:40,075 [Thread-3:10708] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 17:29:00,411 [Thread-5:14016] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 17:29:18,747 [Thread-7:16904] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-12 17:29:20,269 [Thread-8:18076] [blog.views:20] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-13 10:25:50,417 [Thread-2:7096] [blog.views:44] [views:index] [ERROR]- 'Cursor' object has no attribute 'fechall'
+2017-09-13 10:27:02,160 [Thread-2:8972] [blog.views:44] [views:index] [ERROR]- 'Cursor' object has no attribute 'fechall'
+2017-09-13 10:37:48,841 [Thread-6:8316] [blog.views:44] [views:index] [ERROR]- 'Cursor' object has no attribute 'fechall'
+2017-09-13 10:40:54,108 [Thread-2:12760] [blog.views:44] [views:index] [ERROR]- 'Cursor' object has no attribute 'fechall'
+2017-09-13 13:09:57,871 [Thread-2:14776] [blog.views:66] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-09-13 13:10:02,289 [Thread-3:9120] [blog.views:66] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-09-13 15:29:22,201 [Thread-4:7564] [blog.views:195] [views:do_login] [ERROR]- Reverse for '' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []

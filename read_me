@@ -1,0 +1,28 @@
+django==1.8.18
+MySQL-python==1.2.3
+virtualenv==15.1.0
+pip install Pillow==2.8.1
+
+配置日志器
+配置settings访问
+
+
+参考资料：
+https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
+
+django-admin中添加富文本编辑器的几种方式：
+1、使用第三方的一些库，如django-ckeditor
+(https://pypi.python.org/pypi/django-ckeditor)
+2、在admin中定义富文本编辑器的widget
+3、通过定义ModelAdmin的媒体文件
+
+步骤：
+1、下载kindeditor
+2、定义ModelAdmin的媒体文件
+class Media:
+        js = (
+            '/static/js/kindeditor-4.1.10/kindeditor-min.js',
+            '/static/js/kindeditor-4.1.10/lang/zh_CN.js',
+            '/static/js/kindeditor-4.1.10/config.js',
+        )
+3、修改kindeditor的配置文件

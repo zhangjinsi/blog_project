@@ -1,0 +1,242 @@
+2017-09-12 14:17:10,230 [Thread-3:14048] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-09-12 14:17:10,247 [Thread-2:13928] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-09-12 14:17:10,269 [Thread-7:5960] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-09-12 14:17:10,289 [Thread-6:6872] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-09-12 14:17:10,312 [Thread-5:7472] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-09-12 14:18:33,395 [Thread-9:11112] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-09-12 14:18:33,415 [Thread-10:11248] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-09-12 14:18:33,443 [Thread-11:10156] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-09-12 14:18:33,480 [Thread-12:7792] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-09-12 14:33:28,536 [Thread-2:11140] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonworkspace\blog_project\blog\views.py", line 21, in index
+    return render(request,'index.html',locals())
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 209, in render
+    with context.bind_template(self):
+  File "C:\Python27\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\context.py", line 237, in bind_template
+    processors = (template.engine.template_context_processors +
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\utils\functional.py", line 59, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\engine.py", line 90, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\engine.py", line 90, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\utils\module_loading.py", line 26, in import_string
+    module = import_module(module_path)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named view
+2017-09-12 14:33:51,674 [Thread-2:8432] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonworkspace\blog_project\blog\views.py", line 21, in index
+    return render(request,'index.html',locals())
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 209, in render
+    with context.bind_template(self):
+  File "C:\Python27\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\context.py", line 241, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-09-12 14:34:18,608 [Thread-3:14152] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-09-12 14:34:18,632 [Thread-4:12292] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-09-12 14:34:18,651 [Thread-5:6164] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-09-12 14:34:18,678 [Thread-6:5284] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-09-12 16:56:34,509 [Thread-2:8748] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\pythonworkspace\blog_project\blog_project\urls.py", line 19, in <module>
+    from blog.upload import *
+  File "C:\pythonworkspace\blog_project\blog\upload.py", line 14
+SyntaxError: Non-ASCII character '\xe5' in file C:\pythonworkspace\blog_project\blog\upload.py on line 14, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-09-12 16:56:36,299 [Thread-3:15684] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\pythonworkspace\blog_project\blog_project\urls.py", line 19, in <module>
+    from blog.upload import *
+  File "C:\pythonworkspace\blog_project\blog\upload.py", line 14
+SyntaxError: Non-ASCII character '\xe5' in file C:\pythonworkspace\blog_project\blog\upload.py on line 14, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-09-12 16:56:45,582 [Thread-4:18332] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\pythonworkspace\blog_project\blog_project\urls.py", line 19, in <module>
+    from blog.upload import *
+  File "C:\pythonworkspace\blog_project\blog\upload.py", line 14
+SyntaxError: Non-ASCII character '\xe5' in file C:\pythonworkspace\blog_project\blog\upload.py on line 14, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-09-12 16:57:21,767 [Thread-2:17844] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\pythonworkspace\blog_project\blog_project\urls.py", line 19, in <module>
+    from blog.upload import *
+  File "C:\pythonworkspace\blog_project\blog\upload.py", line 14
+SyntaxError: Non-ASCII character '\xe5' in file C:\pythonworkspace\blog_project\blog\upload.py on line 14, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-09-12 16:57:43,289 [Thread-2:7112] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\pythonworkspace\blog_project\blog_project\urls.py", line 19, in <module>
+    from blog.upload import *
+  File "C:\pythonworkspace\blog_project\blog\upload.py", line 14
+SyntaxError: Non-ASCII character '\xe5' in file C:\pythonworkspace\blog_project\blog\upload.py on line 14, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-09-12 17:28:41,424 [Thread-4:16416] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html
+2017-09-12 17:29:01,776 [Thread-6:13512] [django.request:170] [base:get_response] [WARNING]- Not Found: /templates/index.html
+2017-09-12 17:56:12,247 [Thread-25:4076] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-13 09:42:01,834 [Thread-4:16584] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-13 13:54:30,779 [Thread-6:4856] [django.request:170] [base:get_response] [WARNING]- Not Found: /portal.php
+2017-09-13 14:47:53,631 [Thread-2:17680] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonworkspace\blog_project\blog\views.py", line 62, in index
+    return render(request, 'index.html',locals())
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 210, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 202, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 202, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 578, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 495, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'article' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2017-09-13 14:49:19,375 [Thread-3:5780] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\pythonworkspace\blog_project\blog\views.py", line 117, in article
+    return render(request, 'article.html', locals())
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 210, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 202, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 202, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\defaulttags.py", line 329, in render
+    return nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 578, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django-1.8.18-py2.7.egg\django\core\urlresolvers.py", line 495, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2017-09-13 15:17:05,385 [Thread-5:9456] [django.request:170] [base:get_response] [WARNING]- Not Found: /article/None
+2017-09-13 15:48:59,005 [Thread-15:5284] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
